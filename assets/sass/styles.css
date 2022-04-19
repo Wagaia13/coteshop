@@ -16579,14 +16579,13 @@ body #content-global {
 
 @media screen and (max-width: 767px) {
   .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide {
+    height: 80vh !important;
     opacity: 0;
-    transition: opacity 1s;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    visibility: hidden;
-    display: none;
+    transition: opacity 0s ease-out;
+    -webkit-transition: opacity 0s ease-out;
+    -moz-transition: opacity 0s ease-out;
+    -ms-transition: opacity 0s ease-out;
+    -o-transition: opacity 0s ease-out;
   }
 }
 
@@ -16603,6 +16602,14 @@ body #content-global {
      object-position: top center;
 }
 
+@media screen and (max-width: 767px) {
+  .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide div .hero-slide-mob img {
+    height: 100% !important;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+
 .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide div .hero-slide-mob .slide-content-mob {
   top: 30%;
   left: 10%;
@@ -16611,11 +16618,13 @@ body #content-global {
 @media screen and (max-width: 767px) {
   .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide div .hero-slide-mob .slide-content-mob {
     opacity: 0;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    top: 10% !important;
+    left: 10% !important;
   }
 }
 
@@ -16624,40 +16633,18 @@ body #content-global {
 }
 
 @media screen and (max-width: 767px) {
-  .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide.prevSlide {
-    opacity: 1 !important;
-    transition: visibility opacity  0.8s;
-    -webkit-transition: visibility opacity  0.8s;
-    -moz-transition: visibility opacity  0.8s;
-    -ms-transition: visibility opacity  0.8s;
-    -o-transition: visibility opacity  0.8s;
-    visibility: visible;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-slide.prevSlide .hero-slide-mob .slide-content-mob {
-    opacity: 1;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current {
     opacity: 1 !important;
-    transition: visibility opacity  0.8s;
-    -webkit-transition: visibility opacity  0.8s;
-    -moz-transition: visibility opacity  0.8s;
-    -ms-transition: visibility opacity  0.8s;
-    -o-transition: visibility opacity  0.8s;
-    visibility: visible;
-    display: block;
+    transition: opacity 1.2s ease-in;
+    -webkit-transition: opacity 1.2s ease-in;
+    -moz-transition: opacity 1.2s ease-in;
+    -ms-transition: opacity 1.2s ease-in;
+    -o-transition: opacity 1.2s ease-in;
   }
+}
+
+.slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div {
+  height: 100%;
 }
 
 .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div .hero-slide-mob, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob {
@@ -16672,25 +16659,29 @@ body #content-global {
 @media screen and (max-width: 767px) {
   .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div .hero-slide-mob .slide-content-mob, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob .slide-content-mob {
     opacity: 1;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+    transition: opacity 2.9s;
+    -webkit-transition: opacity 2.9s;
+    -moz-transition: opacity 2.9s;
+    -ms-transition: opacity 2.9s;
+    -o-transition: opacity 2.9s;
+    top: 15% !important;
+    left: 10% !important;
+    right: 10%;
+    margin: auto;
+    width: 80%;
   }
 }
 
 .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div .hero-slide-mob .slide-content-mob h1, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob .slide-content-mob h1 {
   font-size: 30px !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div .hero-slide-mob .slide-content-mob p, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob .slide-content-mob p {
-  display: none !important;
-}
-
-.slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current.slick-active div .hero-slide-mob .slide-content-mob a, .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob .slide-content-mob a {
-  display: none !important;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
 }
 
 .slide-conntainer-custom-mob .heromob .slick-list .slick-track .slick-current div .hero-slide-mob .header-content {

@@ -199,43 +199,20 @@ jQuery(document).ready(function () {
     .slick({
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 300,
       cssEase: "linear",
-      slidesToShow: 1.1,
+      slidesToShow: 1,
       slidesToScroll: 1,
       vertical: true,
       autoplay: true,
-	  pauseOnFocus: false,
-	  pauseOnHover: false,
+      pauseOnFocus: false,
+      pauseOnHover: false,
       autoplaySpeed: 5000,
       draggable: false,
       arrows: false,
       centerPadding: "100px",
-      
+      verticalSwiping: true
     })
-    .on("afterChange init", function (event, slick, direction) {
-      // console.log('afterChange/init', event, slick, slick.$slides);
-      // remove all prev/next
-      slick.$slides.removeClass("prevSlide").removeClass("nextSlide");
-      // slick.$slides.find('.hero-slide').css('width','100%');
-      // find current slide
-      for (var i = 0; i < slick.$slides.length; i++) {
-        var $slide = $(slick.$slides[i]);
-        if ($slide.hasClass("slick-current")) {
-          // update DOM siblings
-          $slide.prev().addClass("prevSlide");
-          $slide.next().addClass("nextSlide");
-          // $slide.next().find('.hero-slide').css('width','30%');
-          // $slide.next().find('.header-content').remove();
-          break;
-        }
-      }
-    })
-    .on("beforeChange", function (event, slick) {
-      // optional, but cleaner maybe
-      // remove all prev/next
-      slick.$slides.removeClass("prevSlide").removeClass("nextSlide");
-    });
 });
 jQuery(document).ready(function () {
   var curr = jQuery(".current-slide").next();
