@@ -1,0 +1,62 @@
+$color_primary : #FF7A00;
+$pink : #E90081;
+$noir : #131313;
+$white : #fff;
+$black : #000000;
+$gris : #B1B1B1;
+$fira : 'Fira Sans';
+$orange : #FF7A00;
+$bleufonce : #141E35;
+$grisfonce:#F8F8F8;
+.fitnees_flex{
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+.transition{
+	@include prefix(transition, all 0.4s);
+}
+.center_v{
+	top: 50%;
+	@include prefix(transform, translateY(-50%));
+}
+.center_h{
+	left: 50%;
+	@include prefix(transform, translateX(-50%));
+}
+.center_vh{
+	left: 50%;
+	top: 50%;
+	@include prefix(transform, translateY(-50%) translateX(-50%));
+}
+.bg-gris{
+	background-color: $gris;
+}
+.bg-white{
+	background-color: white;
+}
+.bg-grey2{
+	background-color: #f6f6f6;
+}
+.pl-container{
+	padding-left: calc(50% - 870px);
+}
+.header-container, .custom_container{
+	margin: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	@media (min-width: 1200px){
+		max-width: 1800px;
+	}
+	@media (max-width: 991px){
+		padding-left: 0px;
+		padding-right: 0px;
+		&>div{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}

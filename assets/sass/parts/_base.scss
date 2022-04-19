@@ -1,0 +1,154 @@
+html{
+	@media (max-width: 767px){
+		overflow-x: hidden;
+	}
+}
+#main>.container-fluid {
+	max-width: 100%;
+	padding: 0 80px;
+}
+@media screen and (max-width: 1023px) {
+	#main>.container-fluid {
+		padding: 0px;
+		margin-bottom: 0px!important;
+	}
+	.prod-list .home.sect-prdt {
+		margin-bottom: 0px;
+	}
+	.prod-list .home.sect-prdt .desk-show div a .text-promo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+body *{
+	font-family: $fira;
+	font-size: 14px;
+	@media (max-width: 575px){
+		font-size: 12px;
+	}
+}
+body a i, body a span{
+	font-size: inherit;
+}
+body p a{
+	font-size: inherit;
+}
+body img{
+	max-width: 100%;
+}
+body{
+	overflow-x:hidden ;
+	p{
+		font-size: 14px;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 25px;
+		@media (max-width: 767px){
+			font-size: 12px;
+		}
+	}
+	h1, h2, h3, h4, h5, h6, p, ul, li{
+		a{
+			font-size: inherit;
+		}
+	}
+	.h1, .h2, .h3, .h4, .h5, .h6{
+		font-family: $fira;
+		font-weight: 700;
+	}
+	.h1{
+		font-size: 75px;
+		line-height: 90px;
+		margin-bottom: 20px;
+		@media (max-width: 767px){
+			font-size: 55px !important;
+		}
+	}
+	.h2{
+		font-size: 45px;
+		line-height: 54px;
+		@media (max-width: 767px){
+			font-size: 25px !important;
+		}
+	}
+	.h3{
+		font-size: 30px;
+		line-height: 40px;
+		@media (max-width: 767px){
+			font-size: 20px !important;
+		}
+	}
+	.h4{
+		font-size: 20px;
+		line-height: 35px;
+		@media (max-width: 767px){
+			font-size: 17px !important;
+		}
+	}
+	.h5{
+		font-size: 17px;
+		line-height: 30px;
+		@media (max-width: 767px){
+			font-size: 15px !important;
+		}
+	}
+	.btn-custom{
+		font-size: 15px;
+		font-weight: 700;
+		font-family: $fira;
+		line-height: 30px;
+		padding: 8px 40px;
+		color: $noir;
+		text-align: center;
+		display: inline-block;
+		border-radius: 60px;
+		min-width: 140px;
+		border: 1px solid $noir;
+		text-decoration: none !important;
+		text-transform: uppercase;
+		@media (max-width: 767px){
+			font-size: 14px ;
+		}
+		@extend .transition;
+		&--blanc{
+			color: $white;
+			border-color: $white;
+		}
+		&--thin{
+			padding: 6px 40px;
+			font-size: 14px;
+			line-height: 30px ;
+			letter-spacing: 1px;
+		}
+		&:hover{
+			background-color: $color_primary;
+			text-decoration: none !important;
+			color: $white;
+			border-color: $color_primary;
+		}
+	}
+	.img-full{
+		height: 100%;
+		width: 100%;
+		object-position: center;
+		object-fit: cover;
+	}
+	/*.container-fluid{
+		max-width: 1770px;
+	}
+	.container{
+
+	}*/
+	.container-fluid{
+		max-width: 1740px;
+	}
+	.container{
+		max-width: 1140px;
+	}
+	#content-global {
+		overflow-x: hidden;
+	}
+	
+}
+
