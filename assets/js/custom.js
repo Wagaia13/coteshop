@@ -195,6 +195,19 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function () {
+  $('.owl-home-mobile').owlCarousel({
+    loop:true,
+    margin:0,
+    dots: true,
+    items: 1,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    animateIn: true,
+    autoplay:true,
+    autoplayTimeout: 5000,
+    fade:true,
+  
+    });
   $(".heromob")
     .slick({
       dots: true,

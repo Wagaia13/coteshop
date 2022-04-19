@@ -16567,6 +16567,122 @@ body #content-global {
      object-fit: cover;
 }
 
+.owl-home-mobile {
+  height: 110vh;
+  margin-bottom: 30px;
+}
+
+.owl-home-mobile .owl-stage, .owl-home-mobile .owl-stage-outer, .owl-home-mobile .owl-item {
+  height: 110vh;
+}
+
+.owl-home-mobile .owl-dots {
+  position: absolute;
+  bottom: 28%;
+  z-index: 3;
+  margin-left: 15px;
+}
+
+.owl-home-mobile .owl-dots button.owl-dot span {
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #131313;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.owl-home-mobile .owl-dots button.owl-dot.owl-dot.active span {
+  transition: 0.5s;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  width: 40px;
+  height: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.owl-home-mobile .owl-item.active .row {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.8s 0.7s;
+  -webkit-transition: all 0.8s 0.7s;
+  -moz-transition: all 0.8s 0.7s;
+  -ms-transition: all 0.8s 0.7s;
+  -o-transition: all 0.8s 0.7s;
+}
+
+.owl-home-mobile .item {
+  height: 110vh;
+  position: relative;
+}
+
+.owl-home-mobile .item > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.owl-home-mobile .item > .row {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.9s 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 50%;
+  margin: 0px;
+  -webkit-transition: all 0.9s 1s;
+  -moz-transition: all 0.9s 1s;
+  -ms-transition: all 0.9s 1s;
+  -o-transition: all 0.9s 1s;
+}
+
+.owl-home-mobile .item h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  color: #131313;
+}
+
+.owl-home-mobile .item p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #131313;
+}
+
+.owl-home-mobile .item a {
+  margin-left: 0 !important;
+}
+
 @media (min-width: 767px) {
   .slide-conntainer-custom-mob {
     display: none !important;
