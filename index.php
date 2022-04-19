@@ -65,7 +65,7 @@
       </div>
       <!-- END DESKTOP -->
       <!-- MOBILE -->
-      <div class="owl-carousel owl-home-mobile">
+      <div class="owl-carousel owl-home-mobile d-block d-md-none">
 
         <div class="item">
           <img alt="" class="img-responsive cover" src="images/robe.png">

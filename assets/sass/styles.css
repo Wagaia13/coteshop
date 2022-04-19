@@ -16568,17 +16568,17 @@ body #content-global {
 }
 
 .owl-home-mobile {
-  height: 110vh;
+  height: calc(100vh - 135px);
   margin-bottom: 30px;
 }
 
 .owl-home-mobile .owl-stage, .owl-home-mobile .owl-stage-outer, .owl-home-mobile .owl-item {
-  height: 110vh;
+  height: calc(100vh - 135px);
 }
 
 .owl-home-mobile .owl-dots {
   position: absolute;
-  bottom: 28%;
+  bottom: 20%;
   z-index: 3;
   margin-left: 15px;
 }
@@ -16629,7 +16629,7 @@ body #content-global {
 }
 
 .owl-home-mobile .item {
-  height: 110vh;
+  height: calc(100vh - 135px);
   position: relative;
 }
 
@@ -16657,7 +16657,7 @@ body #content-global {
           align-items: center;
   position: relative;
   z-index: 1;
-  padding-top: 50%;
+  padding-top: 22%;
   margin: 0px;
   -webkit-transition: all 0.9s 1s;
   -moz-transition: all 0.9s 1s;
