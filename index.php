@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- les css -->
     <link rel="stylesheet" href="assets/sass/styles.css" />
   </head>
@@ -65,45 +65,67 @@
       </div>
       <!-- END DESKTOP -->
       <!-- MOBILE -->
-      <div class="slide-conntainer-custom-mob mb-4">
-        <div class="row">
-          <div class="hero-text-mob">
-          <div class="heromob" data-arrows="true" data-autoplay="true">
-            <!--.hero-slide-mob-->
-  
-            <div class="hero-slide-mob">
-                <img alt="" class="img-responsive cover" src="images/bracelet.jpg">
-              <div class="position-absolute slide-content-mob">
-                <h1 class="mb-4">Les bracelets hommes</h1>
-                <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
-                <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
-              </div>
+      <div class="owl-carousel owl-home-mobile">
+
+        <div class="item">
+          <img alt="" class="img-responsive cover" src="images/robe.png">
+          <div class="row">
+
+            <div class="col-12">
+              <h1 class="mb-4">Lorem ipsum</h1>  
             </div>
-            <!--.hero-slide-mob-->
-  
-            <div class="hero-slide-mob">
-                <img alt="" class="img-responsive cover" src="images/slider1.png">
-              <div class="position-absolute slide-content-mob">
-                <h1 class="mb-4">Lorem ipsum</h1>  
-                <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
-              </div>
+
+            <div class="col-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <!--.hero-slide-mob-->
-  
-              <div class="hero-slide-mob">
-                  <img alt="" class="img-responsive cover" src="images/slidermobile.png">             
-                <div class="position-absolute slide-content-mob">
-                  <h1 class="mb-4">Lorem ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
-                  <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
-                </div>
-              </div>
-            </div><!--.hero-->
+
+            <div class="col-12">
+              <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
+            </div>
+
           </div>
         </div>
+        
+        <div class="item">
+          <img alt="" class="img-responsive cover" src="images/bracelet.jpg">
+          <div class="row">
+
+            <div class="col-12">
+              <h1 class="mb-4">Les bracelets hommes</h1>
+            </div>
+
+            <div class="col-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-12">
+              <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
+            </div> 
+
+          </div>
+        </div>
+
+        <div class="item">
+          <img alt="" class="img-responsive cover" src="images/robe.png">
+          <div class="row">
+
+            <div class="col-12">
+              <h1 class="mb-4">Lorem ipsum</h1>  
+            </div>
+
+            <div class="col-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="col-12">
+              <a href="" class="btn mx-3 btn-custom btn-custom--noir btn-custom--thin btn-outline-secondary">VOIR TOUT</a>
+            </div>
+
+          </div>
+        </div>
+
       </div>
-      <!-- END MOBILE -->
+
         <!-- END SLIDER -->
         <div class="container-fluid mb-5">
           <div class="row no-gutters prod-list">
@@ -311,6 +333,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/select2.min.js"></script>
