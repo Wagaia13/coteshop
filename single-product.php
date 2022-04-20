@@ -105,7 +105,7 @@
         </div>
         <div class="container-fluid mt-5">
           
-          <div class="sect-prdt">
+          <div class="sect-prdt single-prd">
              <h2 class="title-more pt-4 pb-4">Vous aimeriez aussi</h2>
             <div class="row mb-2 mt-2">
                             <div class="col-md-2 col-half-offset- mt-2">

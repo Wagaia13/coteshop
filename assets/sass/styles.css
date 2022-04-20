@@ -17784,16 +17784,14 @@ body a:hover {
   }
 }
 
-.sect-prdt {
-  margin-bottom: 60px;
+.home .single-prd.sect-prdt {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 80px !important;
 }
 
-@media (max-width: 991px) {
-  .sect-prdt {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 80px !important;
-  }
+.sect-prdt {
+  margin-bottom: 60px;
 }
 
 .sect-prdt .col-half-offset:nth-child(1) {
