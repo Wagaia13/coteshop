@@ -16661,8 +16661,8 @@ body #content-global {
 
 .owl-home-mobile .item h1 {
   font-weight: 700;
-  font-size: 55px;
-  line-height: 66px;
+  font-size: 40px;
+  line-height: 55px;
   color: #131313;
 }
 
@@ -17551,7 +17551,9 @@ body #content-global {
 
 @media (max-width: 767px) {
   .banner-footer .banner-footer-img {
-    display: block !important;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -17774,8 +17776,24 @@ body a:hover {
   margin-bottom: 0;
 }
 
+@media (max-width: 991px) {
+  .home .sect-prdt {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px !important;
+  }
+}
+
 .sect-prdt {
   margin-bottom: 60px;
+}
+
+@media (max-width: 991px) {
+  .sect-prdt {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 80px !important;
+  }
 }
 
 .sect-prdt .col-half-offset:nth-child(1) {

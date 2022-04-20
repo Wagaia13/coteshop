@@ -66,12 +66,22 @@ body{
 }
 .home .sect-prdt {
 	margin-bottom: 0;
+	@media(max-width: 991px){
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 0px!important;
+	}
 }
-.sect-prdt
-{
+.sect-prdt{
 	margin-bottom: 60px;
+	@media(max-width: 991px){
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 80px!important;
+	}
 	.col-half-offset:nth-child(1) {
    		 margin-left: 0;
+			
 	}
 	.col-half-offset{
 		margin-left: 4%;
