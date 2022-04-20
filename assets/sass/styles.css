@@ -17785,9 +17785,14 @@ body a:hover {
 }
 
 .home .single-prd.sect-prdt {
-  padding-left: 15px;
-  padding-right: 15px;
   margin-bottom: 80px !important;
+}
+
+@media (max-width: 991px) {
+  .home .single-prd.sect-prdt {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .sect-prdt {
