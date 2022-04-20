@@ -358,7 +358,7 @@
 		    text-align:center;
 		    margin:0 auto;
 		    width: 150px;
-		    margin-top: 15px;
+		    margin-top: 10px;
 		}
 		.line1, .line2, .line3 {
 		  margin-top:6px;
@@ -564,6 +564,9 @@
 			}
 		}
 	}
+}
+.header-sticky #drawer-pannier_default-header {
+	height: calc(100vh - 124px);
 }
 #drawer-pannier_default-header {
 	height: calc(100vh - 175px);

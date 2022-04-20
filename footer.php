@@ -82,8 +82,8 @@
             </div>
           </div>
         </div>
-        <div class="banner-footer parallax-window py-5 mt-5" data-parallax="scroll" data-image-src="images/rectangle_2430_banner_footer.png">
-          <img src="images/rectangle_2430_banner_footer.png" width="100%" height="410" class="banner-footer-img parallax_scroll">
+        <div class="banner-footer">
+          <img src="images/rectangle_2430_banner_footer.png" class="banner-footer-img">
           <div class="container inner-banner-footer hideme">
             <span class="title-widget text-center" style="color:#fff;text-align:center !important;display:flex;justify-content: center;font-size: 35px;">Vous êtes commerçant ?</span>
             <p class="text-center">Vous souhaitez vendre vos produits en destockage ? Il suffit de vous inscrire</p>

@@ -52,24 +52,13 @@
       event.preventDefault();
       $(this).parent().parent().children("a").click();
     });
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 0) {
-        $('#header').addClass('header-sticky');
-       
-        $(".header-classic").css("display", "none");
-        $(".header-stk").css("display", "block");
-      } else {
-        /*$('#header').removeClass('sticky animate__animated animate__fadeInDown');*/
-        $('#header').removeClass('header-sticky');
-        $(".header-classic").css("display", "block");
-        $(".header-stk").css("display", "none");
-      }
+    
       /*if($(window).scrollTop() > 600 ){
 				$('#to_top').addClass('afficher');
     		}else{
     			$('#to_top').removeClass('afficher');
     		}*/
-    });
+    
     $("#to_top").click(function () {
       $("html, body").animate({ scrollTop: 0 }, 500);
     });
@@ -296,6 +285,15 @@ win.scroll(function (event) {
   });
 });
 /*Animation effect on coteshop text & images*/
+
+var images = document.querySelectorAll('.banner-footer-img');
+new simpleParallax(images, {
+
+    customWrapper: '.banner-footer',
+    delay: .1,
+    transition: 'cubic-bezier(9,0,1,9)',
+    scale: 1.56,
+});
 /*Parallax on image footer*/
 $(document).ready(function () {
   if (window.matchMedia("(max-width: 767px)").matches) {

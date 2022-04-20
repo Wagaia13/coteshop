@@ -918,6 +918,9 @@
 	}
 }
 .banner-footer{
+	display: flex;
+	align-items: center;
+	justify-content:center;
 	max-width: unset !important;
 	position: relative;
 	min-height: 400px;
@@ -926,14 +929,8 @@
 		color: $white;
 	}
 	.banner-footer-img{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
+		position: absolute;	
 		z-index: -1;
-		display: flex;
 		@media (max-width: 767px){
 			display: block !important;
 		}

@@ -15670,7 +15670,7 @@ body #content-global {
   text-align: center;
   margin: 0 auto;
   width: 150px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #header-mobile .navigation .line1, #header-mobile .navigation .line2, #header-mobile .navigation .line3 {
@@ -15919,6 +15919,10 @@ body #content-global {
 
 #block-search-bar_sticky-header .fit-content_width .input-group-append .btn-custom:hover, #block-search-bar_default-header .fit-content_width .input-group-append .btn-custom:hover {
   cursor: pointer;
+}
+
+.header-sticky #drawer-pannier_default-header {
+  height: calc(100vh - 124px);
 }
 
 #drawer-pannier_default-header {
@@ -16308,22 +16312,12 @@ body #content-global {
 .banner-footer {
   max-width: unset !important;
   position: relative;
-  padding: 5rem 0rem !important;
+  padding: 0rem !important;
+  margin: 8rem 0 !important;
 }
 
 .banner-footer h2, .banner-footer p {
   color: #fff;
-}
-
-.banner-footer .banner-footer-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  z-index: -1;
 }
 
 .banner-footer .inner-banner-footer {
@@ -17531,6 +17525,15 @@ body #content-global {
 }
 
 .banner-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: unset !important;
   position: relative;
   min-height: 400px;
@@ -17543,16 +17546,7 @@ body #content-global {
 
 .banner-footer .banner-footer-img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   z-index: -1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 @media (max-width: 767px) {
@@ -17774,6 +17768,10 @@ body a:hover {
   #header .text-right {
     text-align: center !important;
   }
+}
+
+.home .sect-prdt {
+  margin-bottom: 0;
 }
 
 .sect-prdt {

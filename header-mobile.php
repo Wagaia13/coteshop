@@ -18,7 +18,7 @@
       </span>
 
       <div class="logo">
-        <img src="assets/img/logo.svg" />
+        <a href="index.php"><img src="assets/img/logo.svg" /></a>
       </div>
 
       <div class="icon-right d-flex justify-content-end">
