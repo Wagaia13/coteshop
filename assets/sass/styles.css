@@ -18193,6 +18193,16 @@ body a:hover {
   padding: 0 6px;
 }
 
+.assurance-bas {
+  padding: 0 80px;
+}
+
+@media (max-width: 991px) {
+  .assurance-bas {
+    padding: 0 15px;
+  }
+}
+
 @media (min-width: 991px) {
   .assurance-bas .col-md-3:nth-child(1) .icon-box {
     -webkit-box-pack: start;
@@ -18699,7 +18709,8 @@ body a:hover {
   .sect-prdt .col-half-offset- {
     width: 50% !important;
     margin-bottom: 16px;
-    padding-left: 0px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
   }
 }
 

@@ -423,7 +423,12 @@ body{
 		
 }
 .assurance-bas{
+	padding: 0 80px;
+	@media(max-width:991px){
+		padding: 0 15px;
+	}
 	@media(min-width:991px){
+		
 		.col-md-3:nth-child(1){
 			.icon-box{
 				justify-content: flex-start;
